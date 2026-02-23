@@ -1,7 +1,7 @@
 Contributing to Reffo
 Thanks for your interest in contributing to Reffo! This guide applies to all repositories in the reffo-ai organization.
 Contributor License Agreement
-Before your first contribution can be merged, you must agree to our Individual Contributor License Agreement. By submitting a pull request, you confirm that you have read and agree to the CLA.
+Before your first contribution can be merged, you must agree to our Individual Contributor License Agreement. By submitting a pull request, you confirm that you have read and agree to the CLA. CLA can be found at https://gist.github.com/arcio/4e7e50b2c4a041158f4a126a94aef071
 Getting Started
 
 Fork the repository
