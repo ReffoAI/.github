@@ -12,7 +12,7 @@ What does this PR do? Reference any related issues (e.g., `Closes #42`).
 
 ## Checklist
 
-- [ ] I have read and agree to the [CLA](https://gist.github.com/YOUR_GIST_ID)
+- [ ] I have read and agree to the [CLA](https://gist.github.com/arcio/4e7e50b2c4a041158f4a126a94aef071)
 - [ ] My branch follows the naming convention (`feat/`, `fix/`, `docs/`)
 - [ ] I have added or updated tests for my changes
 - [ ] All tests pass locally (`npm test`)
