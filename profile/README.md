@@ -34,9 +34,9 @@ Think of it like email for commerce. Anyone can run a node, anyone can trade wit
 | Repo | Description | License |
 |------|-------------|---------|
 | [`reffo-protocol`](https://github.com/ReffoAI/reffo-protocol) | Shared type system, Schema.org extensions, and category schemas that let beacons speak the same language. | CC0-1.0 |
-| [`reffo-beacon`](https://github.com/ReffoAI/reffo-beacon) | Self-hosted inventory server. SQLite database, Express API, Hyperswarm DHT peer discovery. | MIT |
-| [`reffo-webapp`](https://github.com/ReffoAI/reffo-webapp) | Search and discovery layer at [reffo.ai](https://reffo.ai). Next.js, React, Supabase. | MIT |
-| [`create-reffo-beacon`](https://github.com/ReffoAI/create-reffo-beacon) | One-command scaffold: `npx create-reffo-beacon` — sets up a beacon project in seconds. | MIT |
+| [`reffo-beacon`](https://github.com/ReffoAI/reffo-beacon) | Self-hosted inventory server. SQLite database, Express API, Hyperswarm DHT peer discovery. | AGPL-3.0 |
+| [`reffo-webapp`](https://github.com/ReffoAI/reffo-webapp) | Search and discovery layer at [reffo.ai](https://reffo.ai). Next.js, React, Supabase. | Proprietary |
+| [`create-reffo-beacon`](https://github.com/ReffoAI/create-reffo-beacon) | One-command scaffold: `npx create-reffo-beacon` — sets up a beacon project in seconds. | AGPL-3.0 |
 
 ## Get Started
 
@@ -92,4 +92,4 @@ We welcome contributions to all Reffo projects. See our [Contributing Guide](htt
 
 ## License
 
-Each project is licensed independently — see the table above. The protocol is CC0 (public domain). Application code is MIT.
+Each project is licensed independently — see the table above. The protocol is CC0 (public domain). The beacon and CLI are AGPL-3.0. The webapp is proprietary.
