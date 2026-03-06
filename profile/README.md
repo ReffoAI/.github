@@ -1,29 +1,32 @@
 <p align="center">
-  <img src="https://reffo.ai/favicon.ico" width="64" height="64" alt="Reffo" />
-</p>
-
-<h1 align="center">Reffo</h1>
-
-<p align="center">
-  <strong>Open-source protocol for decentralized commerce.</strong><br />
-  Buy, sell, trade, rent, and share — peer-to-peer, no middleman, no predatory fees.
+  <img src="https://reffo.ai/gitLogo.png" alt="Reffo" width="280" />
 </p>
 
 <p align="center">
-  <a href="https://reffo.ai">Website</a> &nbsp;&middot;&nbsp;
-  <a href="https://reffo.ai/about">About</a> &nbsp;&middot;&nbsp;
-  <a href="https://reffo.ai/download">Download Beacon</a>
+  Open-source protocol for decentralized commerce.
+</p>
+
+<p align="center">
+  <a href="https://reffo.ai">Website</a> &middot;
+  <a href="https://reffo.ai/about">About</a> &middot;
+  <a href="https://github.com/ReffoAI/reffo-beacon/releases">Download Beacon</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/protocol-CC0--1.0-green" alt="Protocol License" />
+  <img src="https://img.shields.io/github/license/ReffoAI/reffo-beacon" alt="Beacon License" />
+  <img src="https://img.shields.io/github/stars/ReffoAI/reffo-beacon?style=flat" alt="GitHub Stars" />
 </p>
 
 ---
 
 ## What is Reffo?
 
-Today's online marketplaces charge sellers 10–20% in fees, harvest your data, and dictate what you can and can't sell. Reffo is the alternative: an **open protocol** that lets anyone trade directly with anyone else — no platform taking a cut.
+Today's online marketplaces charge sellers 10-20% in fees, harvest your data, and dictate what you can sell. Reffo is the alternative: an **open protocol** that lets anyone trade directly with anyone else — no platform taking a cut.
 
 Think of it like email for commerce. Anyone can run a node, anyone can trade with anyone, regardless of provider.
 
-### How it works
+## How it works
 
 1. **Run a beacon** — Download the app or run `npx create-reffo-beacon`. Your beacon is your personal storefront on the open network.
 2. **List your items** — Products, rentals, services, things to trade. Your inventory, your rules.
@@ -33,16 +36,12 @@ Think of it like email for commerce. Anyone can run a node, anyone can trade wit
 
 | Repo | Description | License |
 |------|-------------|---------|
-| [`reffo-protocol`](https://github.com/ReffoAI/reffo-protocol) | Shared type system, Schema.org extensions, and category schemas that let beacons speak the same language. | CC0-1.0 |
-| [`reffo-beacon`](https://github.com/ReffoAI/reffo-beacon) | Self-hosted inventory server. SQLite database, Express API, Hyperswarm DHT peer discovery. | AGPL-3.0 |
-| [`reffo-webapp`](https://github.com/ReffoAI/reffo-webapp) | Search and discovery layer at [reffo.ai](https://reffo.ai). Next.js, React, Supabase. | Proprietary |
-| [`create-reffo-beacon`](https://github.com/ReffoAI/create-reffo-beacon) | One-command scaffold: `npx create-reffo-beacon` — sets up a beacon project in seconds. | AGPL-3.0 |
+| [reffo-protocol](https://github.com/ReffoAI/reffo-protocol) | Shared type system, Schema.org extensions, and category schemas that let beacons speak the same language. | CC0-1.0 |
+| [reffo-beacon](https://github.com/ReffoAI/reffo-beacon) | Self-hosted inventory server. SQLite database, Express API, Hyperswarm DHT peer discovery. | AGPL-3.0 |
+| [reffo-webapp](https://github.com/ReffoAI/reffo-webapp) | Search and discovery layer at [reffo.ai](https://reffo.ai). Next.js, React, Supabase. | Proprietary |
+| [create-reffo-beacon](https://github.com/ReffoAI/create-reffo-beacon) | One-command scaffold: `npx create-reffo-beacon` — sets up a beacon project in seconds. | AGPL-3.0 |
 
-## Get Started
-
-### Run a beacon locally (no install required)
-
-Download a prebuilt bundle from the [latest release](https://github.com/ReffoAI/reffo-beacon/releases) — extract, double-click, done. Includes an embedded Node.js runtime so nothing else is needed.
+## Get started
 
 ### Set up with npm
 
@@ -54,15 +53,19 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) — your beacon is live.
 
+### Download a prebuilt bundle
+
+Grab the latest release from [reffo-beacon/releases](https://github.com/ReffoAI/reffo-beacon/releases) — extract, double-click, done. Includes an embedded Node.js runtime so nothing else is needed.
+
 ### Connect to Reffo.ai (optional)
 
-Generate an API key at [reffo.ai/account](https://reffo.ai/account) and add it to your beacon's `.env` file. This syncs your listings to the Reffo.ai discovery network. It's entirely optional — your beacon works independently without it.
+Generate an API key at [reffo.ai/account](https://reffo.ai/account) and paste it into your beacon's Settings page. This syncs your listings to the Reffo.ai discovery network. It's entirely optional — your beacon works independently without it.
 
 ## Architecture
 
 ```
 ┌──────────────────────────────────────────────┐
-│        @reffo/protocol (CC0 — public domain) │
+│           @reffo/protocol (CC0)              │
 │        Shared types, schemas, utilities       │
 └────────────┬─────────────────┬───────────────┘
              │                 │
@@ -79,12 +82,16 @@ Generate an API key at [reffo.ai/account](https://reffo.ai/account) and add it t
      (peer-to-peer network)
 ```
 
-## Our Promise
+## Principles
 
 - The protocol, beacon, and core tooling are **free and open source** — always.
 - Peer-to-peer trading will **never** require a Reffo.ai account or fee.
 - Optional Reffo.ai services (API, managed integrations, enhanced search) are **always opt-in**.
 - We will never insert ourselves into transactions between independent beacons.
+
+## Status
+
+Reffo is in early alpha. Star the repos to follow progress.
 
 ## Contributing
 
