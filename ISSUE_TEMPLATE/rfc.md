@@ -1,6 +1,6 @@
 ---
 name: RFC — Protocol Change
-about: Propose a change to the Reffo protocol
+about: Propose a change to the protocol
 title: "[RFC] "
 labels: rfc, protocol
 assignees: ''

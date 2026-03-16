@@ -39,7 +39,7 @@ npm test
 npm run test:watch
 Each repo's README has additional setup instructions if needed (e.g., environment variables, local Supabase instance).
 Protocol Changes (RFC Process)
-Reffo is an open protocol. Changes to the core protocol (schema, DHT behavior, negotiation flow) require community discussion before implementation.
+Changes to the core protocol (schema, DHT behavior, negotiation flow) require community discussion before implementation.
 To propose a protocol change:
 
 Open an issue in the relevant repo with the [RFC] prefix in the title

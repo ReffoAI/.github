@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Open-source protocol for decentralized commerce.
+  The open-source protocol for decentralized commerce.
 </p>
 
 <p align="center">
