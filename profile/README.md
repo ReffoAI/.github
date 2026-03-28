@@ -26,6 +26,9 @@ Today's online marketplaces charge sellers 10-20% in fees, harvest your data, an
 
 Think of it like email for commerce. Anyone can run a node, anyone can trade with anyone, regardless of provider.
 
+<img width="1057" height="780" alt="image" src="https://github.com/user-attachments/assets/fd46c1a9-ec88-42cc-bf51-aedd12e42cad" />
+
+
 ## How it works
 
 1. **Run a beacon** — Download the app or run `npx create-reffo-beacon`. Your beacon is your personal storefront on the open network.
